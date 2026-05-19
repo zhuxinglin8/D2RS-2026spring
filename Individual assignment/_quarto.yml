@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "朱兴林的个人Quarto网站"
+  navbar:
+    left:
+      # 首页配置
+      - href: index.qmd
+        text: 首页
+      # 关于页配置
+      - href: about.qmd
+        text: 关于我
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
